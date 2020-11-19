@@ -1,0 +1,42 @@
+{
+  "name": "myBrunch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.1",
+    "axios-https-proxy-fix": "^0.17.1",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "^4.0.0",
+    "sass": "^1.29.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "gh-pages": "^2.0.1",
+    "url-loader": "^4.1.1"
+  },
+  "homepage": "https://github.com/minhd-nguyen/myBrunch"
+}
